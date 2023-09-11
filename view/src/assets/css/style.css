@@ -1,0 +1,376 @@
+.vuetable-checkboxes input[type=checkbox]
+{
+	-ms-transform: scale(1.5); /* IE */
+	-moz-transform: scale(1.5); /* FF */
+	-webkit-transform: scale(1.5); /* Safari and Chrome */
+	-o-transform: scale(1.5); /* Opera */
+	transform: scale(1.5);
+	margin: 5px;
+	/*padding: 10px;*/
+}
+
+.vuetable-th-checkbox-id input[type=checkbox]
+{
+	-ms-transform: scale(1.5); /* IE */
+	-moz-transform: scale(1.5); /* FF */
+	-webkit-transform: scale(1.5); /* Safari and Chrome */
+	-o-transform: scale(1.5); /* Opera */
+	transform: scale(1.5);
+	margin: 5px;
+	/*padding: 10px;*/
+}
+
+.menu-text-color{
+	color:white !important;
+}
+
+.menu-text-color:hover{
+	color: #e1e1e1 !important;
+}
+
+/* Select2 custom styles */
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple {
+  border-color: #e7eaec;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--single,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border-color: #1ab394;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #1ab394;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border-color: #e7eaec;
+}
+
+.select2-dropdown {
+  border-color: #e7eaec;
+}
+
+.select2-dropdown input:focus {
+  outline: none;
+}
+
+.select2-selection {
+  outline: none;
+}
+
+.ui-select-container.ui-select-bootstrap .ui-select-choices-row.active > a {
+  background-color: #1ab394;
+}
+
+/* Validation custom styles */
+/*textbox componentinde borderları kırmızı yapmasını engellediği için kaldırıldı.*/
+/*input:valid {*/
+/*  border-color: #e5e6e7;*/
+/*}*/
+
+input:invalid {
+  border-color: #ed5565;
+}
+
+.danger {
+  border: 1px solid #ed5565;
+}
+
+.p-0 {
+  padding: -0px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pl-0 {
+  padding-left: -0px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pr-0 {
+  padding-right: -0px;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pb-10 {
+  padding-bottom: 10px
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.new-line {
+  white-space: pre-line;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.color_blue {
+    color: darkblue;
+}
+
+.bg-color-soft-red {
+    background-color: #ffc8c8;
+}
+.bg-color-soft-green {
+    background-color: #d0ffc8;
+}
+
+.bg-color-soft-grey {
+	background-color: #d1dbe1;
+}
+
+.bg-sunflower-1 {
+  background-color: #FEF9E7 !important;;
+}
+
+/*input number type'ların spin çubuğunu kaldırır*/
+.turn-off-input-spinner::-webkit-inner-spin-button,
+.turn-off-input-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* text area için resize özelliğini kapatır */
+.resize-none{
+  resize: none;
+}
+
+/* select elementinde sağdaki oku kaybeder */
+.arrow-hide {
+  -o-appearance: none;
+  -ms-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* NVİ  Doğum/Ölüm tarihi */
+.date-container {
+    width: 90%;
+}
+.date-container .box{width:96%; margin:1% 2% 1% 2%}
+.fieldset-gk {
+  border:0.5px solid #aaaaaa;
+  padding-left:10px;
+  padding-right:0;
+  padding-top:16px;
+  padding-bottom:2px;
+  margin-bottom: 20px;
+  margin-left: -10px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+
+}
+
+.form-control.bg-white {
+  background-color: white;
+}
+
+div.scrolled {
+  width: 99%;
+  height: 200px;
+  overflow: auto;
+}
+
+/*@media (max-width: 767px) {*/
+/*  div.horizontal-scrolled{*/
+/*    overflow-x: auto;*/
+/*    overflow-y:hidden;*/
+/*  }*/
+/*}*/
+
+
+/* ################################ */
+
+.omis-container-small{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.omis-container{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.omis-container-large{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font-size-l{
+  font-size: 1.25em;
+}
+.font-size-m{
+	font-size: .80em;
+}
+.font-size-s{
+  font-size: .75em;
+}
+.btn-grey {
+  color: dimgrey;
+  background-color: lightgrey;
+  border-color: darkgrey;
+}
+.width-100{
+  width: 8em;
+}
+.width-150{
+  width: 12em;
+}
+
+.width-200{
+  width: 16em;
+}
+
+.omis-divider-h{
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent 0%, #dddddd 30%, #dddddd 70%, transparent 100%);
+  margin: 5px;
+}
+
+.omis-divide-right{
+  border-width: 1px;
+  border-image: linear-gradient(to bottom, transparent, #dddddd 30%, #dddddd 70%, transparent ) 1 100%;
+  border-right-style: solid;
+}
+
+.omis-divide-left{
+  border-width: 1px;
+  border-image: linear-gradient(to bottom, transparent, #dddddd 30%, #dddddd 70%, transparent ) 1 100%;
+  border-left-style: solid;
+}
+
+/* Responsive classes */
+@media (min-width: 768px) {
+  .omis-divide-md-right{
+    border-width: 1px;
+    border-image: linear-gradient(to bottom, transparent, #dddddd 30%, #dddddd 70%, transparent ) 1 100%;
+    border-right-style: solid;
+  }
+
+  .omis-divide-md-left{
+    border-width: 1px;
+    border-image: linear-gradient(to bottom, transparent, #dddddd 30%, #dddddd 70%, transparent ) 1 100%;
+    border-left-style: solid;
+  }
+}
+@media (min-width: 992px) {
+  .omis-divide-lg-right{
+    border-width: 1px;
+    border-image: linear-gradient(to bottom, transparent, #dddddd 30%, #dddddd 70%, transparent ) 1 100%;
+    border-right-style: solid;
+  }
+
+  .omis-divide-lg-left{
+    border-width: 1px;
+    border-image: linear-gradient(to bottom, transparent, #dddddd 30%, #dddddd 70%, transparent ) 1 100%;
+    border-left-style: solid;
+  }
+}
+@media (min-width: 1200px) {
+  .omis-divide-xl-right{
+    border-width: 1px;
+    border-image: linear-gradient(to bottom, transparent, #dddddd 30%, #dddddd 70%, transparent ) 1 100%;
+    border-right-style: solid;
+  }
+
+  .omis-divide-lg-left{
+    border-width: 1px;
+    border-image: linear-gradient(to bottom, transparent, #dddddd 30%, #dddddd 70%, transparent ) 1 100%;
+    border-left-style: solid;
+  }
+}
+
+.vue-portal-target > *{
+  margin-left: 3px;
+}
+/* ################################ */

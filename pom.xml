@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.developer</groupId>
-	<artifactId>employee-management</artifactId>
+	<artifactId>etscase</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>employee-management</name>
+	<name>etscase</name>
 	<description>Build Restful API With JPA and Postgresql</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -51,7 +51,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<artifactId>spring-boot-starter-test</artifactId>
 			</plugin>
 		</plugins>
 	</build>
